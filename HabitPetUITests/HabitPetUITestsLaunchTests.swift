@@ -1,13 +1,13 @@
 //
-//  OnboardingUITestsLaunchTests.swift
-//  OnboardingUITests
+//  HabitPetUITestsLaunchTests.swift
+//  HabitPetUITests
 //
 //  Created by Janice C on 9/16/25.
 //
 
 import XCTest
 
-final class OnboardingUITestsLaunchTests: XCTestCase {
+final class HabitPetUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

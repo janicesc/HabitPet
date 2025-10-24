@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		918338A02EA9CD3D00AF1A3B /* CalorieCameraKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9183389F2EA9CD3D00AF1A3B /* CalorieCameraKit */; };
+		918338A22EA9CD9000AF1A3B /* CalorieCameraKit in Frameworks */ = {isa = PBXBuildFile; productRef = 918338A12EA9CD9000AF1A3B /* CalorieCameraKit */; };
 		91A60B442E7B474E00887127 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 91A60B432E7B474E00887127 /* Lottie */; };
 /* End PBXBuildFile section */
 
@@ -16,45 +18,45 @@
 			containerPortal = 91B09B6B2E796A7100844B9D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 91B09B722E796A7100844B9D;
-			remoteInfo = Onboarding;
+			remoteInfo = HabitPet;
 		};
 		91B09B822E796A7200844B9D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 91B09B6B2E796A7100844B9D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 91B09B722E796A7100844B9D;
-			remoteInfo = Onboarding;
+			remoteInfo = HabitPet;
 		};
 		91B09B8C2E796A7200844B9D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 91B09B6B2E796A7100844B9D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 91B09B722E796A7100844B9D;
-			remoteInfo = Onboarding;
+			remoteInfo = HabitPet;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		91A60B592E7B5D9D00887127 /* HabitPet_V0.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitPet_V0.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		91B09B732E796A7100844B9D /* Onboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Onboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		91B09B812E796A7200844B9D /* OnboardingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnboardingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		91B09B8B2E796A7200844B9D /* OnboardingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnboardingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B09B732E796A7100844B9D /* HabitPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B09B812E796A7200844B9D /* HabitPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B09B8B2E796A7200844B9D /* HabitPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		91B09B752E796A7100844B9D /* Onboarding */ = {
+		91B09B752E796A7100844B9D /* HabitPet */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Onboarding;
+			path = HabitPet;
 			sourceTree = "<group>";
 		};
-		91B09B842E796A7200844B9D /* OnboardingTests */ = {
+		91B09B842E796A7200844B9D /* HabitPetTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = OnboardingTests;
+			path = HabitPetTests;
 			sourceTree = "<group>";
 		};
-		91B09B8E2E796A7200844B9D /* OnboardingUITests */ = {
+		91B09B8E2E796A7200844B9D /* HabitPetUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = OnboardingUITests;
+			path = HabitPetUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -71,7 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				918338A02EA9CD3D00AF1A3B /* CalorieCameraKit in Frameworks */,
 				91A60B442E7B474E00887127 /* Lottie in Frameworks */,
+				918338A22EA9CD9000AF1A3B /* CalorieCameraKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,9 +99,9 @@
 		91B09B6A2E796A7100844B9D = {
 			isa = PBXGroup;
 			children = (
-				91B09B752E796A7100844B9D /* Onboarding */,
-				91B09B842E796A7200844B9D /* OnboardingTests */,
-				91B09B8E2E796A7200844B9D /* OnboardingUITests */,
+				91B09B752E796A7100844B9D /* HabitPet */,
+				91B09B842E796A7200844B9D /* HabitPetTests */,
+				91B09B8E2E796A7200844B9D /* HabitPetUITests */,
 				91B09B742E796A7100844B9D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,9 +109,9 @@
 		91B09B742E796A7100844B9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91B09B732E796A7100844B9D /* Onboarding.app */,
-				91B09B812E796A7200844B9D /* OnboardingTests.xctest */,
-				91B09B8B2E796A7200844B9D /* OnboardingUITests.xctest */,
+				91B09B732E796A7100844B9D /* HabitPet.app */,
+				91B09B812E796A7200844B9D /* HabitPetTests.xctest */,
+				91B09B8B2E796A7200844B9D /* HabitPetUITests.xctest */,
 				91A60B592E7B5D9D00887127 /* HabitPet_V0.xctest */,
 			);
 			name = Products;
@@ -136,9 +140,9 @@
 			productReference = 91A60B592E7B5D9D00887127 /* HabitPet_V0.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		91B09B722E796A7100844B9D /* Onboarding */ = {
+		91B09B722E796A7100844B9D /* HabitPet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91B09B952E796A7200844B9D /* Build configuration list for PBXNativeTarget "Onboarding" */;
+			buildConfigurationList = 91B09B952E796A7200844B9D /* Build configuration list for PBXNativeTarget "HabitPet" */;
 			buildPhases = (
 				91B09B6F2E796A7100844B9D /* Sources */,
 				91B09B702E796A7100844B9D /* Frameworks */,
@@ -149,19 +153,21 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				91B09B752E796A7100844B9D /* Onboarding */,
+				91B09B752E796A7100844B9D /* HabitPet */,
 			);
-			name = Onboarding;
+			name = HabitPet;
 			packageProductDependencies = (
 				91A60B432E7B474E00887127 /* Lottie */,
+				9183389F2EA9CD3D00AF1A3B /* CalorieCameraKit */,
+				918338A12EA9CD9000AF1A3B /* CalorieCameraKit */,
 			);
-			productName = Onboarding;
-			productReference = 91B09B732E796A7100844B9D /* Onboarding.app */;
+			productName = HabitPet;
+			productReference = 91B09B732E796A7100844B9D /* HabitPet.app */;
 			productType = "com.apple.product-type.application";
 		};
-		91B09B802E796A7200844B9D /* OnboardingTests */ = {
+		91B09B802E796A7200844B9D /* HabitPetTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91B09B982E796A7200844B9D /* Build configuration list for PBXNativeTarget "OnboardingTests" */;
+			buildConfigurationList = 91B09B982E796A7200844B9D /* Build configuration list for PBXNativeTarget "HabitPetTests" */;
 			buildPhases = (
 				91B09B7D2E796A7200844B9D /* Sources */,
 				91B09B7E2E796A7200844B9D /* Frameworks */,
@@ -173,18 +179,18 @@
 				91B09B832E796A7200844B9D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				91B09B842E796A7200844B9D /* OnboardingTests */,
+				91B09B842E796A7200844B9D /* HabitPetTests */,
 			);
-			name = OnboardingTests;
+			name = HabitPetTests;
 			packageProductDependencies = (
 			);
-			productName = OnboardingTests;
-			productReference = 91B09B812E796A7200844B9D /* OnboardingTests.xctest */;
+			productName = HabitPetTests;
+			productReference = 91B09B812E796A7200844B9D /* HabitPetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		91B09B8A2E796A7200844B9D /* OnboardingUITests */ = {
+		91B09B8A2E796A7200844B9D /* HabitPetUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91B09B9B2E796A7200844B9D /* Build configuration list for PBXNativeTarget "OnboardingUITests" */;
+			buildConfigurationList = 91B09B9B2E796A7200844B9D /* Build configuration list for PBXNativeTarget "HabitPetUITests" */;
 			buildPhases = (
 				91B09B872E796A7200844B9D /* Sources */,
 				91B09B882E796A7200844B9D /* Frameworks */,
@@ -196,13 +202,13 @@
 				91B09B8D2E796A7200844B9D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				91B09B8E2E796A7200844B9D /* OnboardingUITests */,
+				91B09B8E2E796A7200844B9D /* HabitPetUITests */,
 			);
-			name = OnboardingUITests;
+			name = HabitPetUITests;
 			packageProductDependencies = (
 			);
-			productName = OnboardingUITests;
-			productReference = 91B09B8B2E796A7200844B9D /* OnboardingUITests.xctest */;
+			productName = HabitPetUITests;
+			productReference = 91B09B8B2E796A7200844B9D /* HabitPetUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -232,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 91B09B6E2E796A7100844B9D /* Build configuration list for PBXProject "Onboarding" */;
+			buildConfigurationList = 91B09B6E2E796A7100844B9D /* Build configuration list for PBXProject "HabitPet" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -243,15 +249,16 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				91A60B422E7B474E00887127 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				9183389E2EA9CD3D00AF1A3B /* XCLocalSwiftPackageReference "../../../Downloads/CalorieCameraKit-v1.0.0" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 91B09B742E796A7100844B9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				91B09B722E796A7100844B9D /* Onboarding */,
-				91B09B802E796A7200844B9D /* OnboardingTests */,
-				91B09B8A2E796A7200844B9D /* OnboardingUITests */,
+				91B09B722E796A7100844B9D /* HabitPet */,
+				91B09B802E796A7200844B9D /* HabitPetTests */,
+				91B09B8A2E796A7200844B9D /* HabitPetUITests */,
 				91A60B582E7B5D9D00887127 /* HabitPet_V0 */,
 			);
 		};
@@ -322,17 +329,17 @@
 /* Begin PBXTargetDependency section */
 		91A60B5E2E7B5D9D00887127 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91B09B722E796A7100844B9D /* Onboarding */;
+			target = 91B09B722E796A7100844B9D /* HabitPet */;
 			targetProxy = 91A60B5D2E7B5D9D00887127 /* PBXContainerItemProxy */;
 		};
 		91B09B832E796A7200844B9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91B09B722E796A7100844B9D /* Onboarding */;
+			target = 91B09B722E796A7100844B9D /* HabitPet */;
 			targetProxy = 91B09B822E796A7200844B9D /* PBXContainerItemProxy */;
 		};
 		91B09B8D2E796A7200844B9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91B09B722E796A7100844B9D /* Onboarding */;
+			target = 91B09B722E796A7100844B9D /* HabitPet */;
 			targetProxy = 91B09B8C2E796A7200844B9D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -354,7 +361,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Onboarding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Onboarding";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabitPet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HabitPet";
 			};
 			name = Debug;
 		};
@@ -374,7 +381,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Onboarding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Onboarding";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabitPet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HabitPet";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -500,13 +507,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Onboarding/Onboarding.entitlements;
+				CODE_SIGN_ENTITLEMENTS = HabitPet/HabitPet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R7YF553FYX;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to capture food photos for calorie estimation";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need photo library access to select food photos for calorie estimation";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -522,7 +531,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.IYA.JaniceChung.Onboarding;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IYA.JaniceChung.HabitPet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -539,13 +548,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Onboarding/Onboarding.entitlements;
+				CODE_SIGN_ENTITLEMENTS = HabitPet/HabitPet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R7YF553FYX;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to capture food photos for calorie estimation";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need photo library access to select food photos for calorie estimation";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -561,7 +572,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.IYA.JaniceChung.Onboarding;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IYA.JaniceChung.HabitPet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -584,14 +595,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.IYA.JaniceChung.OnboardingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IYA.JaniceChung.HabitPetTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Onboarding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Onboarding";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabitPet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HabitPet";
 				XROS_DEPLOYMENT_TARGET = 2.5;
 			};
 			name = Debug;
@@ -607,14 +618,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.IYA.JaniceChung.OnboardingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IYA.JaniceChung.HabitPetTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Onboarding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Onboarding";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabitPet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HabitPet";
 				XROS_DEPLOYMENT_TARGET = 2.5;
 			};
 			name = Release;
@@ -629,14 +640,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.IYA.JaniceChung.OnboardingUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IYA.JaniceChung.HabitPetUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = Onboarding;
+				TEST_TARGET_NAME = HabitPet;
 				XROS_DEPLOYMENT_TARGET = 2.5;
 			};
 			name = Debug;
@@ -651,14 +662,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.IYA.JaniceChung.OnboardingUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IYA.JaniceChung.HabitPetUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = Onboarding;
+				TEST_TARGET_NAME = HabitPet;
 				XROS_DEPLOYMENT_TARGET = 2.5;
 			};
 			name = Release;
@@ -675,7 +686,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91B09B6E2E796A7100844B9D /* Build configuration list for PBXProject "Onboarding" */ = {
+		91B09B6E2E796A7100844B9D /* Build configuration list for PBXProject "HabitPet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91B09B932E796A7200844B9D /* Debug */,
@@ -684,7 +695,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91B09B952E796A7200844B9D /* Build configuration list for PBXNativeTarget "Onboarding" */ = {
+		91B09B952E796A7200844B9D /* Build configuration list for PBXNativeTarget "HabitPet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91B09B962E796A7200844B9D /* Debug */,
@@ -693,7 +704,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91B09B982E796A7200844B9D /* Build configuration list for PBXNativeTarget "OnboardingTests" */ = {
+		91B09B982E796A7200844B9D /* Build configuration list for PBXNativeTarget "HabitPetTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91B09B992E796A7200844B9D /* Debug */,
@@ -702,7 +713,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91B09B9B2E796A7200844B9D /* Build configuration list for PBXNativeTarget "OnboardingUITests" */ = {
+		91B09B9B2E796A7200844B9D /* Build configuration list for PBXNativeTarget "HabitPetUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91B09B9C2E796A7200844B9D /* Debug */,
@@ -712,6 +723,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		9183389E2EA9CD3D00AF1A3B /* XCLocalSwiftPackageReference "../../../Downloads/CalorieCameraKit-v1.0.0" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../Downloads/CalorieCameraKit-v1.0.0";
+		};
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
 		91A60B422E7B474E00887127 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
@@ -725,6 +743,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9183389F2EA9CD3D00AF1A3B /* CalorieCameraKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CalorieCameraKit;
+		};
+		918338A12EA9CD9000AF1A3B /* CalorieCameraKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CalorieCameraKit;
+		};
 		91A60B432E7B474E00887127 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 91A60B422E7B474E00887127 /* XCRemoteSwiftPackageReference "lottie-ios" */;
